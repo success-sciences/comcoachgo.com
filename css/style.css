@@ -146,8 +146,7 @@ header.masthead {
     header.masthead h2 {
       font-size: 1.75em; } }
 
-.portfolio {
-   }
+.portfolio {position: relative; overflow:hidden;}
   .portfolio .portfolio-item {
     position: relative;
     display: block;
@@ -243,7 +242,7 @@ form .row:first-child .floating-label-form-group {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: #2a3344;
-  color: #fff; }
+  color: #fff;}
 .footerEnd{    border-top: 1px solid #404857;
     font-size: 14px;
     margin-top: 30px;
@@ -282,7 +281,7 @@ header.masthead .container{position:relative;}
 .appFootLink li{display:inline-block; text-align:center;}
 .appFootLink li:nth-child(2){border-left:1px solid #716f6e;margin-left: 40px;padding-left: 40px;}
 
-.graph6{text-align:center; margin:30px auto 0px;}
+.graph6{text-align:center; margin:30px auto 0px; position:relative;}
 .portfolio{background-color:#f7f9fb;}
 .portfolio h2, .applicatioFor h2{font-size:32px;}
 
@@ -302,7 +301,7 @@ header.masthead .container{position:relative;}
 .rightSecBox a.color4{background-color: #4ac446;}
 section h2{font-size:32px;}
 
-.featureSection{text-align:center;}
+.featureSection{text-align:center; position:relative; overflow:hidden;}
 .featureSection p{font-size: 18px; margin: 24px 0 50px;}
 .featureSection h3{font-size: 20px;margin-top: 24px; font-weight: 700;}
 .featureBox{margin:36px 0px;}
@@ -421,7 +420,7 @@ margin-top: auto;
 width: 100%;
 clear: both;
 float: left;
-top:42%;
+top:42%; z-index:999;
 }
 .carousel-nav .precedent {
 float: left;
@@ -535,8 +534,23 @@ header.masthead{background: url(../img/bannerBg1.png) no-repeat left center;}
 .lastP{margin:0px;}
 /*.performanceSec .carousel{display:none;}
 .mobileScreen{display:none;}*/
-.carousel-element{width:100% !important; height:436px;}
-.carousel-container{width:78%;}
+.carousel-element{height:436px;}
+
 .carousel-wrapper, .carousel-wrapper2{height:436px;}
+.responsive {width: 297% !important;}
+.performanceSec .container{overflow:hidden;}
+.carousel-nav .suivant {
+    margin-right: 0px;
+    position: absolute;
+    left: 27%;
+z-index: 999;}
 }
+#particles-js, #particles-js2{position:absolute; top:0px; width:100%; height:100%;}
+.performanceSec .container{position:relative;}
+.footer .container{padding:10px;position:relative;}
+.other1, .other2, .other3, .other4{position:absolute; }
+.other1{right:0; top:-28px;}
+.other2{left:0; top:12%;}
+.other3{right:5%; top:-13px;}
+.other4{left:9%; top:40px;}
 
