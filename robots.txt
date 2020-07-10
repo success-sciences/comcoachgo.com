@@ -1,6 +1,5 @@
 User-Agent: *
 Disallow: 
-Disallow: /webforms.html
 Allow: /
 
 Sitemap: http://comcoachgo.com/sitemap.xml
